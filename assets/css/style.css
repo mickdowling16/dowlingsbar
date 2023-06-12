@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background-color: #fcf8eb;
 }
 
-#hero {
-    background-color: green;
-    width: 90%;
-    margin: auto;
-    color:#fcf8eb;
-    margin-top: 10px;
+.navbar-brand {
+    font-family: Alice, serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.header-design {
+    background-color: #24704B;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #FFBD59 !important;
+}
+
+.active {
+    color: #FFBD59 !important;
 }
