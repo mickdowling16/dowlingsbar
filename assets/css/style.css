@@ -5,12 +5,25 @@ body {
     font-family: "Roboto Serif", serif;
 }
 
-body h1, h2, h3, h4, h5, h6 {
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Alice, serif;
     font-weight: 700;
 }
 
 /* ..................................................Navbar styles  */
+
+.navbar {
+    position: relative;
+    z-index: 1000;
+    min-height: 50px;
+    border: 1px solid transparent;
+    margin-bottom: 0 !important;
+}
 
 .navbar-brand {
     font-family: Alice, serif;
@@ -45,8 +58,8 @@ body h1, h2, h3, h4, h5, h6 {
 
 .jumbotron {
     background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(36, 112, 75, 0.40)),
-    url('https://assets3.thrillist.com/v1/image/3055098/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70');
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(36, 112, 75, 0.40)),
+        url('https://assets3.thrillist.com/v1/image/3055098/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70');
     background-size: cover;
     height: 600px;
     color: white;
@@ -54,4 +67,43 @@ body h1, h2, h3, h4, h5, h6 {
 
 .jumbotron p {
     font-size: 1.5rem;
+}
+
+/* ..................................................About Section Style  */
+
+.bg-about {
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(36, 112, 75, 0.40)), 
+    url("https://media.npr.org/assets/img/2017/04/12/tigin-irish-pub-jfk7_wide-d88fd18189660ddc8cb80c52c85dafadfcdfec97-s1400-c100.jpg");
+    background-size: cover;
+    height: 300px;
+    color: white;
+    margin: 0, auto;
+    text-align: center;
+}
+
+.bg-about h2 {
+    font-size: 3em;
+}
+
+.bg-opening {
+    background-color: #24704B;
+    height: 300px;
+    color: white;
+    margin: 0, auto;
+    text-align: center;
+}
+
+.bg-opening h2 {
+    font-size: 3em;
+}
+
+.hor-line {
+    border: 1px solid #FFBD59;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.about-section {
+    margin: 0;
 }
