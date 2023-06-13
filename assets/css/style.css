@@ -64,10 +64,20 @@ h6 {
     height: 600px;
     color: white;
     margin-bottom: 0;
+    padding-top: 100px;
 }
 
 .jumbotron p {
     font-size: 1.5rem;
+}
+
+.btn-yellow-outline {
+    border: 1px solid #FFBD59;
+}
+
+.btn-yellow-outline:hover {
+    color: white;
+    background-color: #FFBD59;
 }
 
 /* ..................................................About Section Style  */
