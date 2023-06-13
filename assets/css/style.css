@@ -154,3 +154,50 @@ h6 {
   tr:last-child {
     border-bottom: none;
   }
+
+  /* ..................................................Menu Section Style  */
+
+  .menu {
+      padding-top: 15px;
+      text-align: center;
+
+  }
+
+  .menu-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu-item img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-right: 10px;
+      border-radius: 5px;
+  }
+
+  .menu-item-details {
+      flex-grow: 1;
+  }
+
+  .menu-item-title {
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 5px;
+  }
+
+  .menu-item-description {
+      margin-top: 0;
+      margin-bottom: 10px;
+  }
+
+  .menu-item-price {
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
