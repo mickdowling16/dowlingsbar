@@ -63,6 +63,7 @@ h6 {
     background-size: cover;
     height: 600px;
     color: white;
+    margin-bottom: 0;
 }
 
 .jumbotron p {
@@ -72,26 +73,33 @@ h6 {
 /* ..................................................About Section Style  */
 
 .bg-about {
-    background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(36, 112, 75, 0.40)), 
-    url("https://media.npr.org/assets/img/2017/04/12/tigin-irish-pub-jfk7_wide-d88fd18189660ddc8cb80c52c85dafadfcdfec97-s1400-c100.jpg");
+    background-image: url("https://media.npr.org/assets/img/2017/04/12/tigin-irish-pub-jfk7_wide-d88fd18189660ddc8cb80c52c85dafadfcdfec97-s1400-c100.jpg");
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.82);
     background-size: cover;
-    height: 300px;
     color: white;
     margin: 0, auto;
     text-align: center;
+    overflow: auto;
+    padding-bottom: 15px;
 }
 
 .bg-about h2 {
     font-size: 3em;
 }
 
+.bg-about P {
+    font-size: 1.25em;
+    width: 90%;
+    margin: auto;
+}
+
 .bg-opening {
     background-color: #24704B;
-    height: 300px;
     color: white;
     margin: 0, auto;
     text-align: center;
+    overflow: auto;
+    padding-bottom: 15px;
 }
 
 .bg-opening h2 {
@@ -106,4 +114,33 @@ h6 {
 
 .about-section {
     margin: 0;
+    padding: 0;
 }
+
+/* ..................................................Opening Hours Section Style  */
+
+.open-hours-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(36, 112, 75);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: rgba(0, 0, 0, 0.40);
+    font-weight: bold;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgba(36, 112, 75, 0.90);
+  }
+
+  tr:last-child {
+    border-bottom: none;
+  }
