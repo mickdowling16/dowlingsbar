@@ -7,7 +7,7 @@ var menuItems = [
           title: "Buffalo Chicken Wings",
           description: "Succulent crispy chicken wings tossed in our signature buffalo sauce served with blue cheese dip.",
           price: "€8.99",
-          image: "#"
+          image: "https://www.thespruceeats.com/thmb/gXxOmyrw76vsaqjClOUm55cbZ0k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/basic-buffalo-hot-wings-recipe-100937-hero-01-611327a035df408fa3771fe8970d8521.jpg"
         },
         {
           title: "Seafood Chowder",
@@ -53,8 +53,8 @@ var menuItems = [
     }
   ];
   
-  // Function to generate the HTML for menu items
-  function generateMenuItems() {
+// Function to generate the HTML for menu items
+function generateMenuItems() {
     var menuContainer = document.getElementById("menu-container");
     for (var i = 0; i < menuItems.length; i++) {
       var section = menuItems[i].section;
@@ -72,11 +72,11 @@ var menuItems = [
         var item = items[j];
         var itemHTML = `
           <div class="menu-item">
-            <img src="${item.image}" alt="${item.title}">
             <div class="menu-item-details">
               <h3 class="menu-item-title">${item.title}</h3>
-              <p class="menu-item-description">${item.description}</p>
               <p class="menu-item-price">${item.price}</p>
+              <p class="menu-item-description">${item.description}</p>
+              <img src="${item.image}" alt="${item.title}" class="menu-item-image">
             </div>
           </div>
         `;
