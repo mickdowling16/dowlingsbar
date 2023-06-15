@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+.green-brand {
+    color: #24704B;
+}
+
+.gold-brand {
+    color: #FFBD59;
+}
+
+/* ..................................................Body Styles  */
+
 body {
     background-color: #fcf8eb;
     font-family: "Roboto Serif", serif;
@@ -174,11 +185,12 @@ h6 {
   }
 
   .menu-item img {
-      width: 100px;
-      height: 100px;
+      width: 200px;
+      height: 200px;
       object-fit: cover;
       margin-right: 10px;
-      border-radius: 5px;
+      border-radius: 50%;
+      border: 3px solid #FFBD59;
   }
 
   .menu-item-details {
