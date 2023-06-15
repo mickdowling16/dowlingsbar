@@ -201,7 +201,7 @@ h6 {
   .menu-item {
       align-items: center;
       margin-bottom: 20px;
-      background-color: #fff;
+      background-color: #fcf8eb;
       padding: 10px;
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -235,4 +235,12 @@ h6 {
       font-weight: bold;
       margin-top: 0;
       margin-bottom: 0;
+  }
+
+  .menu-container {
+    background-color: #fff;
+  }
+
+  .menu-container button {
+    align-items: center;
   }
