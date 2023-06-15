@@ -94,10 +94,8 @@ h6 {
 /* ..................................................About Section Style  */
 
 .bg-about {
-    background-image: url("https://media.npr.org/assets/img/2017/04/12/tigin-irish-pub-jfk7_wide-d88fd18189660ddc8cb80c52c85dafadfcdfec97-s1400-c100.jpg");
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.82);
     background-size: cover;
-    color: white;
+    color: black;
     margin: 0, auto;
     text-align: center;
     overflow: auto;
@@ -133,10 +131,28 @@ h6 {
     width: 20%;
 }
 
-.about-section {
+.about-info {
     margin: 0;
     padding: 0;
 }
+
+ .about-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+
+  .about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
 
 /* ..................................................Opening Hours Section Style  */
 
@@ -166,6 +182,10 @@ h6 {
     border-bottom: none;
   }
 
+  /* ..................................................Contact Us Section Style  */
+
+
+
   /* ..................................................Menu Section Style  */
 
   .menu {
@@ -175,7 +195,6 @@ h6 {
   }
 
   .menu-item {
-      display: flex;
       align-items: center;
       margin-bottom: 20px;
       background-color: #fff;
