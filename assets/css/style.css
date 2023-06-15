@@ -9,6 +9,10 @@
     color: #FFBD59;
 }
 
+.bg-green-brand {
+    background-color: #24704B;
+}
+
 /* ..................................................Body Styles  */
 
 body {
@@ -175,7 +179,7 @@ h6 {
   }
 
   tr:nth-child(even) {
-    background-color: rgba(36, 112, 75, 0.90);
+    background-color: rgba(0, 0, 0, 0.20);
   }
 
   tr:last-child {
